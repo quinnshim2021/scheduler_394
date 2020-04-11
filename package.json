@@ -6,8 +6,10 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "firebase": "^7.14.0",
+    "firebase-tools": "^8.0.2",
     "rbx": "^2.2.0",
-    "react": "^16.13.1",
+    "react": "^16.0.0",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
@@ -34,5 +36,17 @@
   },
   "devDependencies": {
     "typescript": "^3.8.3"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quinnshim2021/scheduler_394.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quinnshim2021/scheduler_394/issues"
+  },
+  "homepage": "https://github.com/quinnshim2021/scheduler_394#readme"
 }
