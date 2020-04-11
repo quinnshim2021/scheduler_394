@@ -119,8 +119,8 @@ const saveCourse = (course, meets) => {
 const Course = ({ course, state }) => (
   <Button color={ buttonColor(state.selected.includes(course)) }
       onClick={ () => state.toggle(course) }
-      onDoubleClick={ () => moveCourse(course) }
       disabled={ hasConflict(course, state.selected) }
+      onDoubleClick={ () => moveCourse(course) }
       >
       { getCourseTerm(course) } CS { getCourseNumber(course) }: { course.title }
     </Button>
